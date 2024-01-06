@@ -1,6 +1,15 @@
-# base-project
+# Base Project
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a robust foundation for developing new applications using Vue.js with Vue 3. It's designed to minimize the time and effort required to initialize projects with standard configurations. By centralizing and standardizing the essential elements, this project enables quick starts for new projects while maintaining high consistency and code quality.
+
+## Key Features
+
+- **Vue.js with Vue 3**: A modern framework for building dynamic user interfaces.
+- **TypeScript**: A typed superset of JavaScript, enhancing code reliability and maintainability.
+- **Vitest**: A test framework for Vue.js, ensuring code robustness.
+- **ESLint**: A tool for identifying and correcting code issues, ensuring high-quality code.
+- **SCSS**: A CSS preprocessor for more efficient styling.
+- **Remixicon**: A comprehensive icon library to enhance UI designs.
 
 ## Recommended IDE Setup
 
