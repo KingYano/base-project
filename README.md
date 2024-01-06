@@ -10,6 +10,7 @@ This project is a robust foundation for developing new applications using Vue.js
 - **ESLint**: A tool for identifying and correcting code issues, ensuring high-quality code.
 - **SCSS**: A CSS preprocessor for more efficient styling.
 - **Remixicon**: A comprehensive icon library to enhance UI designs.
+- **Istanbul Code Coverage**: A JavaScript code coverage tool, providing detailed statistics on test coverage to ensure comprehensive and reliable code coverage.
 
 ## Recommended IDE Setup
 
