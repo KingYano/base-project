@@ -60,3 +60,9 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+
+### Istanbul Code Coverage with [Istanbul Code Coverage](https://istanbul.js.org/)
+
+```sh
+npm run coverage
+```
