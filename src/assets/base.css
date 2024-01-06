@@ -2,8 +2,29 @@
 
 :root {
   /*========== Colors ==========*/
-  --first-color: #F8F8F8;
-  --secondary-color: #F8F8F8;
+  --first-color-50: #f8f8f8;
+  --first-color-100: #efefef;
+  --first-color-200: #dcdcdc;
+  --first-color-300: #bdbdbd;
+  --first-color-400: #989898;
+  --first-color-500: #7c7c7c;
+  --first-color-600: #656565;
+  --first-color-700: #525252;
+  --first-color-800: #464646;
+  --first-color-900: #3d3d3d;
+  --first-color-950: #292929;
+
+  --secondary-color-50: #eef6ff;
+  --secondary-color-100: #d9eaff;
+  --secondary-color-200: #bcdbff;
+  --secondary-color-300: #8ec6ff;
+  --secondary-color-400: #59a5ff;
+  --secondary-color-500: #3a86ff;
+  --secondary-color-600: #1b60f5;
+  --secondary-color-700: #144be1;
+  --secondary-color-800: #173db6;
+  --secondary-color-900: #19388f;
+  --secondary-color-950: #142357;
 
   --border-color: #EAEAEA;
 
@@ -37,16 +58,19 @@
   --small-font: 0.75rem; /* 12px */
   --extra-small-font: 0.625rem; /* 10px */
 
-
   /*========== Border Radius ==========*/
   --extra-boder-radius: 100px;
-  --big-border-radius: 45px;
+  --large-border-radius: 45px;
   --normal-border-radius: 20px;
   --small-border-radius: 10px;
 
   /*========== Font weight ==========*/
-  --nomarl-font-weight: 600;
-  --big-font-weight: 700;
+  --medium-font-weight: 500;
+  --normal-font-weight: 600;
+  --large-font-weight: 700;
+  --extra-large-font-weight: 800;
+  --maximum-font-weight: 900;
+
 
   /*========== Breakpoint screen ==========*/
   --tablette-screen : 768px;
@@ -70,16 +94,16 @@
 
 html {
   ::-webkit-scrollbar {
-    display: none;
+    /*display: none;*/
   }
   ::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
+    /*display: none; !* Safari and Chrome *!*/
   }
 }
 
 body {
   min-height: 100vh;
-  color: var(--first-color);
+  color: var(--first-color-50);
   background: var(--background-primary-color);
   line-height: 1.6;
   font-family:
@@ -96,7 +120,7 @@ body {
           'Droid Sans',
           'Helvetica Neue',
           sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
