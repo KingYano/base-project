@@ -15,6 +15,19 @@
   --first-color-900: #3d3d3d;
   --first-color-950: #292929;
 
+  --secondary-color-0: #ffffff;
+  --secondary-color-50: #eef6ff;
+  --secondary-color-100: #d9eaff;
+  --secondary-color-200: #bcdbff;
+  --secondary-color-300: #8ec6ff;
+  --secondary-color-400: #59a5ff;
+  --secondary-color-500: #3a86ff;
+  --secondary-color-600: #1b60f5;
+  --secondary-color-700: #144be1;
+  --secondary-color-800: #173db6;
+  --secondary-color-900: #19388f;
+  --secondary-color-950: #142357;
+
   --color-openwork-button: #60BC87;
   --color-notwork-button: #D94D4D;
 
